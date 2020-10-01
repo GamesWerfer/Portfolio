@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+}
+
+#portfolioTitle{
+    margin: 0;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #e4e3e3;
+    text-align: center;
+    color:#84a9ac;
+    font-size: 24pt;
+}
+
+nav{
+    margin:0;
+    padding: 0;
+    background-color: #204051;
+    color: white;
+}
+
+.nav_menu{
+    margin:0;
+    padding:0; 
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    margin:0;
+    transition: 0.5s;
+    display: inline-block;
+    padding-top:20px;
+    width: 200px;
+    height: 40px;
+    font-size: 14pt;
+}
+
+nav ul li:hover{
+    transition: 0.5s;
+    background-color: #3b6978;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+#profile_introduction{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e4e3e3;
+    display: flex;
+}
+
+#my-picture{
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    
+    width: 50%;
+
+    text-align: right;
+    
+}
+
+#my-picture img{
+    display: inline-block;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#introduction_text{
+    
+    margin: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+#text{
+    padding-right: 200px;
+}
+
+#about_me, #my_works{
+    padding: 40px;
+    background-color:#84a9ac;
+    color: white;
+}
+
+#about_me h1{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    margin-right:40%;
+
+    width: 20%;
+    height: auto;
+    background-color:#e4e3e3;
+    color: black;
+}
+#about_me h1{
+    text-align: center;
+}
+
+#about_me p{
+    padding: 20px;
+    background-color: #3B6978;
+    color: white;
+    text-align: justify;
+}
+
+#my_talents{
+    padding: 40px;
+    background-color: #e4e3e3;
+}
+
+#my_talents p{
+    text-align: justify;
+}
+
+#my_works img{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-color: #3b6978;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer h4{
+    font-size: 12pt;
+    color: white;
+}
