@@ -93,7 +93,7 @@ nav ul a{
     text-align: center;
 }
 
-#text{
+#introduction_text_subdiv{
     padding-right: 200px;
 }
 
@@ -140,6 +140,81 @@ nav ul a{
 
 #my_works img{
     width: 50%;
+}
+
+#game_design{
+    background-color:#3B6978;
+    display: flex;
+}
+
+#game_design_title{
+    margin: 0px;
+    display: inline-block;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url(../Assets/Game_Design_Background_Cropped.png);
+    background-size: cover;
+    width: 747px;
+    height: 400px;
+}
+
+#game_design_title h2{
+    left: 37%;
+    font-size: 24pt;
+}
+
+#game_design_text{
+    padding-left: 130px;
+    padding-top: 130px;
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    text-align: justify;
+
+    font-size: 16pt;
+}
+
+#game_design_text a{
+    color: skyblue;
+}
+
+
+#Unity3D_title{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url(../Assets/Unity3D_Background_Cropped.png);
+    background-size: cover;
+    width: 827px;
+    height: 350px;
+}
+
+#Unity3D_title h2{
+    left: 28%;
+}
+
+#Web_Development_title{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url(../Assets/Web_Development_Background_Cropped.png);
+    background-size: cover;
+    width: 847px;
+    height: 410px;
+}
+
+#Web_Development_title h2{
+    left: 38%;
+}
+
+/*
+#game_design_title h2{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 42%;
+}*/
+
+.overlayText{
+    margin: 0;
+    position: relative;
+    top: 45%;
 }
 
 footer{
