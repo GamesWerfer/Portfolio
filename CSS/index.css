@@ -179,7 +179,11 @@ nav ul a{
     
 }
 
-#my_works a{
+.hyperlinkType1{
+    color: cyan;
+}
+
+.hyperlinkType2{
     color: skyblue;
 }
 
