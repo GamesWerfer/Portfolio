@@ -6,24 +6,28 @@
     <title>Peter's Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='CSS/index.css'>
-    <script src='main.js'></script>
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src='Scripts/index_behaviour.js'></script>
 </head>
 <body>
-    <header>
-        <div id="portfolioTitle"><b>MY PORTFOLIO</b></div>
-    </header>
-    <nav>
-        <ul class="nav_menu">
-            <a href="#"><li>Home</li></a><!--
-            --><a href="#"><li>About Me</li></a><!--
-            --><a href="#"><li>My Talents</li></a><!--
-            --><a href="#"><li>My Works</li></a>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <header>
+            <div id="portfolioTitle"><b>MY PORTFOLIO</b></div>
+        </header>
+        <nav>
+            <ul class="nav_menu">
+                <a href="#profile_introduction"><li>Home</li></a><!--
+                --><a href="#about_me"><li>About Me</li></a><!--
+                --><a href="#my_talents"><li>My Talents</li></a><!--
+                --><a href="#my_works"><li>My Works</li></a>
+            </ul>
+        </nav>
+    </div>
+    
     <content>
         <div id="profile_introduction">
             <div id="my-picture">
-                <img src="../Portfolio/Assets/Me-CloseUp.png" alt="">
+                <img src="../Portfolio/Assets/Me-CloseUp.png" alt="../Portfolio-Master/Assets/Me-CloseUp.png" alt="My photo">
             </div>
             <div id="introduction_text">
                 <div id="introduction_text_subdiv">
@@ -48,17 +52,17 @@
                     <li>Intermediate in HTML, CSS, JavaScript, and JQuery</li>
                     <li>Capable in MySQL</li>
                     <li>1-year experience in Unity3D and C# Scripting</li>
-                    <li>A Beginner in Game Design</li>
+                    <li>A beginner in Game Design</li>
                     <li>Lots of organizational experience</li>
                     <li>Good time management</li>
                 </ul>
             </div>
             <div id="my_talents_pictures">
-                <img id="english_icon" src="../Portfolio/Assets/english-language.png" alt="english icon">
-                <img id="computer_image" src="../Portfolio/Assets/computer.png" alt="computer icon">
-                <img id="webdev_icon" src="../Portfolio/Assets/WebDevIcon.png" alt="webdev icon">
+                <img id="english_icon" src="../Portfolio/Assets/english-language.png" alt="../Portfolio-Master/Assets/english-language.png" alt="english icon">
+                <img id="computer_image" src="../Portfolio/Assets/computer.png" alt="../Portfolio-Master/Assets/computer.png" alt="computer icon">
+                <img id="webdev_icon" src="../Portfolio/Assets/WebDevIcon.png" alt="../Portfolio-Master/Assets/WebDevIcon.png" alt="webdev icon">
                 <br>
-                <img id="unity_icon" src="../Portfolio/Assets/unity_icon.png" alt="unity icon">
+                <img id="unity_icon" src="../Portfolio/Assets/unity_icon.png" alt="../Portfolio-Master/Assets/unity_icon.png" alt="unity icon">
             </div>
         </div>
         <div id="my_works">

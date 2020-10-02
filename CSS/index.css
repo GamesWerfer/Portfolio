@@ -56,6 +56,14 @@ nav ul a{
     color: white;
 }
 
+/*
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+*/
+
+
 #profile_introduction{
     padding-top: 20px;
     padding-bottom: 20px;
