@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+    width: 100%;
 }
 
 header{
@@ -142,7 +142,8 @@ nav ul a{
     width: 50%;
 }
 
-#game_design{
+
+#game_design, #Unity3D, #Web_Development{
     background-color:#3B6978;
     display: flex;
 }
@@ -163,18 +164,22 @@ nav ul a{
     font-size: 24pt;
 }
 
-#game_design_text{
-    padding-left: 130px;
-    padding-top: 130px;
-    width: 35%;
+.MyWorks_texts{
     display: inline-block;
     text-align: center;
     text-align: justify;
 
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
-#game_design_text a{
+#game_design_text{
+    padding-left: 6%;
+    padding-top: 8%;
+    width: 35%;
+    
+}
+
+#my_works a{
     color: skyblue;
 }
 
@@ -191,6 +196,13 @@ nav ul a{
     left: 28%;
 }
 
+#Unity3D_text{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 6%;
+    width: 50%;
+}
+
 #Web_Development_title{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
     url(../Assets/Web_Development_Background_Cropped.png);
@@ -201,6 +213,13 @@ nav ul a{
 
 #Web_Development_title h2{
     left: 38%;
+}
+
+#Web_Development_text{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 6%;
+    width: 50%;
 }
 
 /*
