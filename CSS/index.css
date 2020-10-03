@@ -204,13 +204,11 @@ nav ul a{
     text-align: justify;
 
     font-size: 14pt;
-}
 
-#game_design_text{
-    padding-left: 6%;
-    padding-top: 8%;
-    width: 35%;
-    
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 6%;
+    width: 50%;
 }
 
 .hyperlinkType1{
@@ -230,26 +228,12 @@ nav ul a{
     height: 350px;
 }
 
-#Unity3D_text{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 6%;
-    width: 50%;
-}
-
 #Web_Development_title{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
     url(../Assets/Web_Development_Background_Cropped.png);
     background-size: cover;
     width: 847px;
     height: 410px;
-}
-
-#Web_Development_text{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 6%;
-    width: 50%;
 }
 
 /*
