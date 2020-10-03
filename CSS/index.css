@@ -198,11 +198,6 @@ nav ul a{
     height: 400px;
 }
 
-#game_design_title h2{
-    left: 37%;
-    font-size: 24pt;
-}
-
 .MyWorks_texts{
     display: inline-block;
     text-align: center;
@@ -235,10 +230,6 @@ nav ul a{
     height: 350px;
 }
 
-#Unity3D_title h2{
-    left: 28%;
-}
-
 #Unity3D_text{
     padding-right: 50px;
     padding-left: 50px;
@@ -252,10 +243,6 @@ nav ul a{
     background-size: cover;
     width: 847px;
     height: 410px;
-}
-
-#Web_Development_title h2{
-    left: 38%;
 }
 
 #Web_Development_text{
@@ -274,9 +261,11 @@ nav ul a{
 }*/
 
 .overlayText{
+    text-align: center;
     margin: 0;
     position: relative;
     top: 45%;
+    font-size: 24pt;
 }
 
 footer{
